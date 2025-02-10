@@ -17,5 +17,4 @@ function sumar(a, b) {
   }
 
 
-
   module.exports = { sumar, restar, multiplicar , dividir};
