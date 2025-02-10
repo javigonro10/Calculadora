@@ -15,3 +15,7 @@ test ('Multiplica 2 * 3 y devuelve 6', () => {
 test ('Divide 6 / 3 y devuelve 2', () => {
     expect(dividir(6, 3)).toBe(2);
 });
+
+test ('Pasar de grados Celsius a Kelvin', () => {
+    expect(c_Kelvin(0)).toBe(273);
+});

@@ -12,6 +12,7 @@
 <button onclick="calcular('suma')">Sumar</button>
 <button onclick="calcular('resta')">Restar</button>
 <button onclick="calcular('multiplicar')">Multiplicar</button>
+<button onclick="calcular('c_Kelvin')">Celsius a Kelvin</button>
 <button onclick="calcular('dividir')">Dividir</button>
 <p>Resultado: <span id="resultado"></span></p>
 <script src="calculadora.js"></script>
@@ -24,6 +25,7 @@ switch (operacion) {
 case 'suma': resultado = suma(num1, num2); break;
 case 'resta': resultado = resta(num1, num2); break;
 case 'multiplicar': resultado = multiplicar(num1, num2); break;
+case 'c_Kelvin': resultado = c_Kelvin(num1); break;
 case 'dividir':
 try {
 resultado = dividir(num1, num2);
