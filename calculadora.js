@@ -17,7 +17,7 @@ function sumar(a, b) {
   }
 
   function c_Kelvin(a){
-    return a + 273
+    return (a + 273);
   }
 
 
